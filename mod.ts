@@ -1,1 +1,1 @@
-export { parseTorrent } from './src/parser.ts'
+export * from './src/parser.ts'
