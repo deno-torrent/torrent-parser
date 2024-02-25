@@ -1,6 +1,6 @@
 import { Bdecoder } from 'bencode'
 import { Buffer } from 'std/io/buffer.ts'
-import { Reader, Writer } from 'std/types.d.ts'
+import { Reader, Writer } from 'std/io/mod.ts'
 
 export type Torrent = {
   'created by': string
